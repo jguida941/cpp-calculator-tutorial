@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/Toolchain-GCC%20|%20Clang-9400D3?style=for-the-badge&logo=llvm&logoColor=white&labelWidth=110&v=5" />
   <img src="https://img.shields.io/badge/Build-Makefile-9400D3?style=for-the-badge&logo=gnubash&logoColor=white&labelWidth=110&v=5" />
   <img src="https://img.shields.io/badge/OS-Linux%20•%20macOS%20•%20Windows-9400D3?style=for-the-badge&logo=apple&logoColor=white&labelWidth=110&v=5" />
-  <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-9400D3?style=for-the-badge&logo=creativecommons&logoColor=white&labelWidth=110&v=5" />
 </p>
 
 
@@ -235,3 +234,4 @@ Educational use permitted. Students are encouraged to study and modify this code
 
 
 *Educational reference implementation for C++ beginners*
+
