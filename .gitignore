@@ -1,0 +1,54 @@
+# C++ build artifacts
+build/
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Debug files
+*.dSYM/
+*.pdb
+*.ilk
+*.idb
+
+# Visual Studio files
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.vcxproj
+*.vcxproj.*
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.ncb
+*.aps
+*.opt
+*.plg
+CppProperties.json
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# IDE specific
+*.sln.docstates
+ipch/
+*.VC.db
+*.VC.opendb

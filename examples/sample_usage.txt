@@ -1,0 +1,116 @@
+# Sample Calculator Usage Examples
+
+## Basic Operations
+
+### Addition
+Input: 5 + 3
+Output: 5 + 3 = 8
+
+Input: 100 + 250
+Output: 100 + 250 = 350
+
+Input: 3.14 + 2.86
+Output: 3.14 + 2.86 = 6
+
+### Subtraction  
+Input: 10 - 4
+Output: 10 - 4 = 6
+
+Input: 5.5 - 2.3
+Output: 5.5 - 2.3 = 3.2
+
+Input: 0 - 5
+Output: 0 - 5 = -5
+
+### Multiplication
+Input: 7 * 8
+Output: 7 * 8 = 56
+
+Input: 3.5 * 2
+Output: 3.5 * 2 = 7
+
+Input: -4 * 3
+Output: -4 * 3 = -12
+
+### Division
+Input: 20 / 4
+Output: 20 / 4 = 5
+
+Input: 7 / 2
+Output: 7 / 2 = 3.5
+
+Input: 100 / 3
+Output: 100 / 3 = 33.3333
+
+## Error Cases
+
+### Division by Zero
+Input: 5 / 0
+Output: Error: Division by zero is undefined.
+
+### Invalid Input Format
+Input: 5 +
+Output: Error: Invalid input. (Please enter + - * /)
+
+Input: abc + 5
+Output: Error: Invalid input. (Please enter + - * /)
+
+Input: 5 5 5
+Output: Error: Invalid input. (Please enter + - * /)
+
+### Invalid Operator
+Input: 5 % 2
+Output: Error: You must use a valid operator (+, -, /, *).
+
+Input: 5 ^ 2
+Output: Error: You must use a valid operator (+, -, /, *).
+
+## Complete Session Example
+
+```
+Enter expression (etc 2 + 2):
+15 + 7
+15 + 7 = 22
+Do you wish to evaluate another expression? (Y/N)
+y
+Enter expression (etc 2 + 2):
+22 * 3
+22 * 3 = 66
+Do you wish to evaluate another expression? (Y/N)
+Y
+Enter expression (etc 2 + 2):
+66 / 2
+66 / 2 = 33
+Do you wish to evaluate another expression? (Y/N)
+y
+Enter expression (etc 2 + 2):
+33 - 13
+33 - 13 = 20
+Do you wish to evaluate another expression? (Y/N)
+n
+Program closing.
+```
+
+## Testing Script
+
+You can test the calculator automatically using this input file:
+```bash
+# Save these lines to test_input.txt:
+5 + 3
+y
+10 - 4
+y
+6 * 7
+y
+20 / 4
+y
+10 / 0
+y
+abc
+y
+5 % 2
+n
+
+# Then run:
+./build/calculator < test_input.txt
+```
