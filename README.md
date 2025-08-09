@@ -150,7 +150,7 @@ This project teaches you to avoid common C++ mistakes:
 
 ```mermaid
 flowchart TD
-    Start([Start Program]) --> Init[Initialize Variables:<br/>- string input<br/>- double op1, op2<br/>- char operation<br/>- char answer = 'Y']
+    Start([Start Program]) --> Init[Initialize Variables:<br/>string input<br/>double op1, op2<br/>char operation<br/>char answer = Y]
     
     Init --> LoopCheck{answer == 'Y'<br/>or 'y'?}
     LoopCheck -->|No| End([End Program])
@@ -186,7 +186,7 @@ flowchart TD
     DisplayResult --> AskContinue[Ask:<br/>'Evaluate another? Y/N']
     
     AskContinue --> ReadAnswer[Read answer]
-    ReadAnswer --> ClearBuffer[Clear input buffer:<br/>cin.ignore()]
+    ReadAnswer --> ClearBuffer[Clear input buffer using cin.ignore]
     
     ClearBuffer --> ValidateAnswer{answer is<br/>Y/y/N/n?}
     ValidateAnswer -->|No| AskContinue
