@@ -14,8 +14,8 @@ This is that basic calculator assignment everyone builds in their first C++ clas
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/calculator-tutorial.git
-cd calculator-tutorial
+git clone https://github.com/jguida941/cpp-calculator-tutorial.git
+cd cpp-calculator-tutorial
 make
 ./build/calculator
 ```
