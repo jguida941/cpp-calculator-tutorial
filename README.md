@@ -1,9 +1,12 @@
 # C++ Basic Calculator - Educational Resource
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-17-9400D3?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelWidth=110&v=5" />
+  <img src="https://img.shields.io/badge/Toolchain-GCC%20|%20Clang-9400D3?style=for-the-badge&logo=llvm&logoColor=white&labelWidth=110&v=5" />
+  <img src="https://img.shields.io/badge/Build-Makefile-9400D3?style=for-the-badge&logo=gnubash&logoColor=white&labelWidth=110&v=5" />
+  <img src="https://img.shields.io/badge/OS-Linux%20•%20macOS%20•%20Windows-9400D3?style=for-the-badge&logo=apple&logoColor=white&labelWidth=110&v=5" />
+  <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-9400D3?style=for-the-badge&logo=creativecommons&logoColor=white&labelWidth=110&v=5" />
+</p>
 
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![License](https://img.shields.io/badge/License-Educational-green)
-![Build](https://img.shields.io/badge/Build-Makefile-blue)
-![Status](https://img.shields.io/badge/Status-Educational_Resource-yellow)
 
 **Important Note:** This is a basic CS101-style calculator intended purely for beginner learning. Not a portfolio-level project.
 
@@ -229,5 +232,6 @@ The program follows this flow:
 Educational use permitted. Students are encouraged to study and modify this code for learning purposes. Not intended for production use - this is purely a learning resource.
 
 ---
+
 
 *Educational reference implementation for C++ beginners*
